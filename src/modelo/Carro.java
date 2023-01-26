@@ -1,18 +1,17 @@
 package modelo;
 
-public class Carro {
-
-    public String marca;
-
-    public Carro(String marca) {
-        this.marca = marca;
+public abstract class Carro {
+    private String precio;
+    public String getPrecio() {
+        return precio;
+    }
+    public Carro(String precio) {
+        this.precio = precio;
     }
 
-    String getMarcaCoche() {
-        return marca;
-    }
+    abstract public void mostrarPuertas();
 
-    void guardarCocheDB(Carro carro) {
-        System.out.println("Guarde en BD");
+    public void tanquiar(){
+        System.out.println("Tanquiar con Gasolina");
     }
 }
