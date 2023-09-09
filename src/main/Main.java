@@ -17,7 +17,6 @@ public class Main {
 
     }
 
-// Abril estuvo aqui
     public static void imprimirPrecioMedioCoche(Carro[] carros) {
         for (Carro carro : carros) {
             if (carro.marca.equals("Renault")) {
