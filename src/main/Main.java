@@ -23,7 +23,7 @@ public class Main {
                 System.out.println(18000);
             }
             if (carro.marca.equals("Audi")) {
-                System.out.println(25000);
+                System.out.println(35000);
             }
         }
     }
