@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0a7df7fd-4914-4127-ba3c-14d99a3029ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/Lector1000.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/Lector200.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/Lector500.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/LectorMoneda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/Maquina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/Moneda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logica/CarroService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/OrderApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rappi/Cocinando.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rappi/EstadoPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rappi/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rappi/Pedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rappi/Recibido.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.OrderApp.executor": "Coverage",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,6 +47,10 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/danielsaavedra/Documentos/arquitectura/solidViolation2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -150,7 +143,7 @@
       <updated>1674696398517</updated>
       <workItem from="1691102413439" duration="3948000" />
       <workItem from="1691186508218" duration="4373000" />
-      <workItem from="1731173438303" duration="274000" />
+      <workItem from="1731173438303" duration="321000" />
     </task>
     <servers />
   </component>
@@ -178,5 +171,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/solidViolation2$OrderApp.ic" NAME="OrderApp Coverage Results" MODIFIED="1731173717771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>main.*</FILTER>
+    </SUITE>
   </component>
 </project>
