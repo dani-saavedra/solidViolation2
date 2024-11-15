@@ -11,7 +11,8 @@ public class OrderApp {
         order.saveOrder();
 
         // Generar y mostrar el reporte de la orden
-        String report = order.generateOrderReport();
+        String report = order.reporte("ORD123", 250.75);
         System.out.println(report);
     }
 }
+
