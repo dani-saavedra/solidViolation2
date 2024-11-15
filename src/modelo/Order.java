@@ -1,11 +1,12 @@
 package modelo;
-
-import bd.DatabaseMysql;
+import bd.Database;
 
 public class Order {
 
     private String orderId;
     private double amount;
+    private Database database;
+    private ReporteOrdenes reporte;
 
     public Order(String orderId, double amount) {
         this.orderId = orderId;
@@ -23,14 +24,15 @@ public class Order {
     public void saveOrder() {
         // Lógica para guardar la orden en la base de datos
         //Envio a guardar en base de datos
-        DatabaseMysql databaseMysql = new DatabaseMysql();
+        database.guardar();
         System.out.println("Order saved in database");
-        databaseMysql.guardar();
     }
 
-    public String generateOrderReport() {
+    
+
+    public String reporte(String orderId, double amount) {
         // Lógica para generar el reporte
-        return "Report for Order ID: " + orderId + " with amount: " + amount;
+        return reporte.generar(orderId, amount) ;
     }
 }
 
