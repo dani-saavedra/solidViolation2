@@ -19,18 +19,5 @@ public class Order {
     public double getAmount() {
         return amount;
     }
-
-    public void saveOrder() {
-        // Lógica para guardar la orden en la base de datos
-        //Envio a guardar en base de datos
-        DatabaseMysql databaseMysql = new DatabaseMysql();
-        System.out.println("Order saved in database");
-        databaseMysql.guardar();
-    }
-
-    public String generateOrderReport() {
-        // Lógica para generar el reporte
-        return "Report for Order ID: " + orderId + " with amount: " + amount;
-    }
 }
 
